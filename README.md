@@ -51,7 +51,7 @@ For **DO** loops, **DO** pops two values from the stack: begin and end. It sets 
 0 1 2 3 4 5 6 7 8 9 ok                (output)
 ```
 
-Note: **;** does not necessarily have to end on the line where **:** began. Same goes for **THEN/UNTIL/LOOP**, and the corresponding **IF/BEGIN/DO**. Also, ***I*** returns an error outside the DO...LOOP construct.
+Note: **;** does not necessarily have to end on the line where **:** began. Same goes for **THEN/UNTIL/LOOP**, and the corresponding **IF/BEGIN/DO**. Also, ***I*** returns an error outside the **DO...LOOP** construct.
   
   
 Inaddition, the interpreter allows users to name constants and save values in the heap memory through variables.
