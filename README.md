@@ -1,4 +1,4 @@
-# Forth Interpreter
+# A Forth Interpreter
 An implementation of an interpreter for Forth using Ruby. Forth is a stack-oriented programming language. At all times, the Forth interpreter maintains a stack of values and a dictionary of words. The Interpreter keeps track of values and words. All values are either integers or strings, while the words describe what to do with the values and can affect the stack.
 
 
