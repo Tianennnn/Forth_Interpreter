@@ -7,8 +7,8 @@ The interpreter will keep reading lines from standard input. Each lines is a set
 # Supported words
 
 - **+**, **-**, **\***, **/** and **MOD\:** add, subtract, multiply, divide and calculate the division remainder, respectively, for the top two stack values and then push the result back to the stack.
-- **DUP\:** duplicates the TOS
 - **SWAP\:** swaps the first two elements on the top of the stack (TOS)
+- **DUP\:** duplicates the TOS
 - **DROP\:** pops the TOS and discards it
 - **DUMP\:** prints the stack without modifying it
 - **OVER\:** takes the second element from the stack and copies it to the TOS
